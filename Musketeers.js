@@ -27,12 +27,4 @@ for (var i = 0; i < values.length; i++) {
 console.log(sum);
 
 //Array Maximum
-
-let temp = 0;
-for(i = 0; i < values.length; i++){
-    if(values[i] > temp){
-        temp = values[i];
-    }
-}
-;
-console.log(temp);
+console.log(Math.max(...values));
